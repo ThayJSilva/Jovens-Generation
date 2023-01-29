@@ -1,0 +1,128 @@
+.back {
+    background: linear-gradient(171deg, #005AD5 74%, #FFFFFF 60%);
+    height: 100%;
+}
+
+.container-titulo {
+    justify-content: center;
+
+    align-items: center;
+    padding: 40px;
+
+
+}
+
+.texto-titulo {
+
+
+    height: 60px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    text-align: center;
+
+    color: #0000FF;
+
+}
+
+.texto-subtitulo {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+
+    color: #4169E1;
+
+}
+
+.container-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    margin-top: 30px;
+    margin-left: 20px;
+    justify-items: center;
+}
+
+/* .black{
+    background-color: white !important;
+    
+} */
+
+.margin-top-30 {
+    margin-top: 15px;
+
+}
+
+.input-dado {
+    width: 200px;
+    border-radius: 50px;
+    border: #71afe5 solid 1px;
+    height: 25px;
+    margin-top: 5px;
+
+}
+
+.input-dados {
+    width: 200px;
+    border-radius: 10px;
+    height: 60px;
+    margin-top: 5px;
+
+}
+
+.input-check {
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+    border: #71afe5 solid 4px;
+
+}
+
+.text-white {
+    color: #0000FF;
+}
+
+.button-add {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    text-decoration: none;
+}
+
+.button-design {
+    padding: 10px;
+    border-radius: 50px;
+    border: #71afe5 solid 3px;
+    color: #005AD5;
+    transition: 0.4s;
+    text-decoration: none;
+}
+
+.button-design:hover {
+    padding: 10px;
+    border-radius: 30px;
+    border: #71afe5 solid 3px;
+    color: white;
+    background-color: #005AD5;
+    text-decoration: none;
+}
+
+.semlink {
+    text-decoration: none;
+
+
+}
+
+.logo {
+    width: 150px;
+    margin-left: 4rem;
+
+}
+
+.text {
+    text-align: center
+}
